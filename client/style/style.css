@@ -1,0 +1,132 @@
+body {
+    background-color: #444444 ;
+}
+
+.brand-name {
+    width: 341px;
+    margin: 30px auto 15px auto;
+    font-family: Algerian;
+    color: #c5c5d0;
+    font-size: 50px;
+}
+
+.outer-container {
+    width: 90%;
+    margin: 15px auto 50px auto;
+    background-color: #29292A;
+}
+
+.zoom-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.zoom-button {
+    background-color: #707073;
+    font-family: Bookman Old Style;
+    width:35px;
+    margin-right: 12px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.zoom-button-hovered {
+    background-color: #4f4f4f;
+}
+
+.zoom-month {
+    color: #FDFDFE;
+}
+
+.stock-graph-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    direction: rtl;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.stock-graph {
+    height: 300px;
+}
+
+text {
+    direction: ltr;
+    fill:white;
+}
+
+.label {
+    fill:#707073;
+    font-family: Bookman Old Style;
+}
+
+path{
+  fill:none;
+  stroke:white;
+  stroke-width:1px;
+}
+
+.add-stock-container {
+    text-align: center;
+}
+
+.add-stock {
+    margin-top : 30px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+.add-stock .form-control:focus {
+    border: 1px solid #FFF;
+}
+
+.add-button {
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #AAA;
+    border-color: #AAA;
+}
+
+.errorMessage {
+    display: block;
+    color: red;
+    margin-top:-20px;
+}
+
+.stock-panel-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stock-panel {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.stock-name{
+    margin: 0 auto;
+    font-family: Bookman Old Style;
+    font-size : 30px;
+    color : #231F20;
+}
+
+.close-icon {
+    display: none;
+}
+
+.stock-panel:hover  .close-icon{
+    display: block;
+    padding-right: 12px;   
+    cursor: pointer;
+}
